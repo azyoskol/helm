@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  ubikiri:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-08T11:49:04.047427725+03:00"
+    dependencies:
+    - name: postgresql-ha
+      repository: https://charts.bitnami.com/bitnami
+      version: 7.0.0
+    - name: nats
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.2.5
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - name: nginx-ingress-controller
+      repository: https://charts.bitnami.com/bitnami
+      version: 7.6.3
+    description: A Helm chart for Kubernetes
+    digest: 349f7b2daa849ce2fa2956a32b26e79c54c31f0bc045d7c77c00d372a25ebcad
+    name: ubikiri
+    type: application
+    urls:
+    - https://azyoskol.github.io/helm/ubikiri-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-05-08T11:49:04.034819831+03:00"
