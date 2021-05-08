@@ -22,6 +22,6 @@ entries:
     name: ubikiri
     type: application
     urls:
-    - https://azyoskol.github.io/helm/ubikiri-0.1.0.tgz
+    - https://azyoskol.github.io/helm/ubikiri/ubikiri-0.1.0.tgz
     version: 0.1.0
 generated: "2021-05-08T11:49:04.034819831+03:00"
